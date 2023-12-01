@@ -1,0 +1,24 @@
+.shad{
+    box-shadow: 4px 4px 6px gray;
+}
+
+.shad2{
+    border: 1px solid white;
+    box-shadow: 4px 4px 6px black;
+    padding: 10px;
+}
+
+
+.container:hover {
+    transform: scale(1.03); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.alert:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); 
+    transition: text-shadow 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+
+
